@@ -1,5 +1,7 @@
+/* Background Content */
+
 body {
-    background-color: grey;
+    background-color: rgba(62, 62, 62, 0.692);
     background-image: linear-gradient(
       rgba(62, 62, 62, 0.692), 
       rgba(62, 62, 62, 0.857)
@@ -11,6 +13,8 @@ body {
     text-align: center;
     
 }
+
+/* Header Content */
 
 #header{
 
@@ -53,13 +57,16 @@ body {
 
 }
 
-#links {
+/* Main Content */
+
+#main-content {
 
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     width: 70%;
     margin: auto;
+    margin-bottom: 100px;
 
 }
 
@@ -73,15 +80,15 @@ body {
     border-radius: 18px;
     border-style:solid;
     margin: 0 auto 22px auto;
-    padding-top: 12px;
-    padding-right: 5px;
-    padding-bottom: 12px;
-    padding-left: 5px;
-    display: block;
-    max-width: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
     text-decoration: none;
     transition: 200ms ease-in-out;
     text-align: center;
+    overflow: hidden;
     
 }
 
@@ -90,5 +97,15 @@ body {
     background-color: rgb(243, 243, 243);
     color: rgb(79, 158, 248);
     transform: scale(1.1);
+
+}
+
+/* Specific Links */
+
+#link-icon {
+
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 
 }
