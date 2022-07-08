@@ -70,6 +70,7 @@ body {
 
 }
 
+
 .tile {
 
     color: rgb(79, 158, 248);
@@ -102,7 +103,7 @@ body {
 
 /* Specific Links */
 
-#link-icon {
+.link-icon {
 
     width: 25px;
     height: 25px;
